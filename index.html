@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Markatech</title>
+</head>
+
+
+<body>
+    <div class="burger-menu">
+        <button class="burger-close">
+            <hr>
+            <hr>
+        </button>
+        <ul>
+            <li><a href="#about" data-scroll>About</a></li>
+            <li><a href="#solutions" data-scroll>Solutions</a></li>
+            <li><a href="#partners" data-scroll>Partners</a></li>
+            <li><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+    </div>
+    <header class="header">
+        <a href="#" class="header-logo"><img src="img/logo.png" alt=""></a>
+        <ul class="header-list">
+            <li><a href="#about" data-scroll>About</a></li>
+            <li><a href="#solutions" data-scroll>Solutions</a></li>
+            <li><a href="#partners" data-scroll>Partners</a></li>
+            <li><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+        <div class="burger">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+    </header>
+    <div class="top-bar">
+        <div class="container">
+            <p>MarkaTech transforms traditional industries with high-tech</p>
+            <p>innotive solutions to give our clients the
+                competitive edge</p>
+            <p>i they need to succeed in today's market.</p>
+        </div>
+
+    </div>
+    <main class="main" id="about">
+        <div class="container">
+            <p class="main__top">At MarkaTech we work to identify the best technological solutions for each client’s
+                unique
+                needs and challenges in order to improve efficiency, quality, and cost-effectiveness.
+            </p>
+            <div class="main-solutions">
+                <p class="main-solutions__title">
+                    <img src="img/markatech.svg" alt="">
+                    <span>+</span>
+                    <span>Our Partners</span>
+                </p>
+                <img src="img/solutions-diagram.svg" alt="" class="solutions-diagram">
+                <div class="main-solutions__items">
+                    <div id="main-solutions__item1">
+                        <img src="img/solutions1.svg" alt="">
+                        <p>Experience in leading multifaceted projects </p>
+                    </div>
+                    <div id="main-solutions__item2">
+                        <img src="img/solutions2.svg" alt="">
+                        <p>Experience in integrating new technologies in traditional industries </p>
+                    </div>
+                    <div id="main-solutions__item3">
+                        <img src="img/solutions3.svg" alt="">
+                        <p>Extended experience with traditional industry </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="advantages" id="solutions">
+        <div class="container">
+            <div class="advantages__item">
+                <img src="img/advantages1.svg" alt="">
+                <p>A multi disciplinary approach</p>
+            </div>
+            <div class="advantages__item">
+                <img src="img/advantages2.svg" alt="">
+                <p>Extended network of international connections</p>
+            </div>
+            <div class="advantages__item">
+                <img src="img/advantages3.svg" alt="">
+                <p>Extended experience with the local ecosystem</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="partners" id="partners">
+        <div class="container">
+            <h2>Partners</h2>
+            <div class="partners__items">
+                <img src="img/partners1.png" alt="">
+                <img src="img/partners2.png" alt="">
+                <img src="img/partners3.png" alt="">
+                <img src="img/partners4.png" alt="">
+                <img src="img/partners5.png" alt="">
+                <img src="img/partners6.png" alt="">
+                <img src="img/partners7.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    <form action="#" class="main-form" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Fill out the form below and we will contact you as soon as possible</p>
+            <div class="form-name">
+                <div> <label for="name">Name</label>
+                    <input type="text" placeholder="Name" name="name">
+                </div>
+                <div><label for="email">Email</label>
+                    <input type="email" placeholder="Email" name="email">
+                </div>
+
+            </div>
+
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+        </div>
+
+    </form>
+</body>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</html>
