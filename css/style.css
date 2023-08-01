@@ -447,8 +447,8 @@ textarea {
 
 @media (max-width: 458px) {
     .advantages .container {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+        flex-direction: column;
+
+        gap: 25px;
     }
 }
