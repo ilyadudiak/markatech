@@ -182,7 +182,7 @@ a {
 }
 
 .advantages {
-    padding: 30px 0;
+    margin-top: 50px;
 
 }
 
@@ -203,9 +203,11 @@ a {
 }
 
 .advantages__item p {
-    color: #123a31;
-    font-weight: 900;
+    color: #FFFFFF;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal
 }
 
 .partners {
@@ -289,11 +291,11 @@ textarea {
 }
 
 .main-form button {
-    background-color: #3f73df;
+    background-color: #3A635B;
     border: none;
     outline: none;
-    border-radius: 10px;
-    padding: 15px 20px;
+
+    padding: 15px 40px;
     width: fit-content;
     color: white;
     font-size: 18px;
@@ -310,7 +312,7 @@ textarea {
 }
 
 .main-form button:hover {
-    background-color: #1f479e;
+    background-color: #4d8378;
 }
 
 .burger {
